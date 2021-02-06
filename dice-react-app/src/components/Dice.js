@@ -12,8 +12,6 @@ class Dice extends React.Component {
 
     handleClick() {
         this.setState({dice1: "assets/" + this.rollDie() + ".png", dice2: "assets/" + this.rollDie() + ".png"})
-        console.log(this.state);
-
     }
     
     render() {
