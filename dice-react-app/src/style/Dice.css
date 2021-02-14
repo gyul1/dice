@@ -8,8 +8,13 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    width: 65%;
 }
 
 #dice {
     text-align: center;
+}
+
+#diceButton { 
+    color: #050f38;
 }

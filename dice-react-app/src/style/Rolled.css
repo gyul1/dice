@@ -1,0 +1,12 @@
+h1 {
+    color: #050f38;
+}
+
+#rolled{
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: 10%;
+    font-size: 150%;
+}
