@@ -15,7 +15,6 @@ class Dice extends React.Component {
         var d1 = this.rollDie()
         var d2 = this.rollDie()
         this.setState({dice1: d1, dice2: d2})
-        console.log(d1, d2)
         this.props.handleClick(d1 + d2);
     }
     
