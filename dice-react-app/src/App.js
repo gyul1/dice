@@ -16,9 +16,6 @@ class App extends React.Component {
     handleClick(rolledValue) {
         let rollHistory = [...this.state.rolled];
         rollHistory.push(rolledValue);
-        if (rollHistory.length > 10) {
-            rollHistory = rollHistory.slice(-10)
-        }
         this.setState({rolled: rollHistory});
     }
 
@@ -30,7 +27,7 @@ class App extends React.Component {
                         <Dice handleClick={this.handleClick} />
                     </div>
                     <div class="column">
-                        <Rolled rolled={this.state.rolled}/>
+                        <Rolled rolled={this.state.rolled.slice(-10).reverse()}/>
                     </div>
                 </div>
             </div>

@@ -11,6 +11,7 @@ class Rolled extends React.Component {
             <div id="rolledHistory">
                 <h1> Roll History </h1>
                 <ul id="rolled">
+                    <li id="latest">{this.props.rolled.shift()}</li>
                     {this.props.rolled.map(number=> (<li>{number}</li>))} 
                 </ul>
             </div> 

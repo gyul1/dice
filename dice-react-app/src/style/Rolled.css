@@ -10,3 +10,8 @@ li {
     padding-bottom: 10%;
     font-size: 150%;
 }
+
+#latest {
+    font-size: 170%;
+    color: red;
+}
